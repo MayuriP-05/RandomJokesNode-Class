@@ -56,7 +56,7 @@ Open Postman (or your preferred API testing tool).
 Make a GET request to http://localhost:3000/api/jokes/random.
 You should receive a JSON response with a random joke.
 
-##Challenges
+## Challenges
 While working on this project, I encountered the following challenges:
 Handling different joke formats: JokeAPI returns jokes in different formats (single-part or two-part). I had to ensure that the API correctly handled both types.
 API integration: Integrating a third-party API (JokeAPI) to fetch random jokes required handling asynchronous requests using Axios.
