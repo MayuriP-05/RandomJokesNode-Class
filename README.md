@@ -12,16 +12,22 @@ Follow the steps below to clone and run the project locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/random-jokes-api.git
+   git clone https://github.com/MayuriP-05/random-jokes-api.git
 
- ## Navigate into the project directory:
+2. ## Navigate into the project directory:
 #### bash
 ####  Copy code
 #### cd random-jokes-api
 
-### Install dependencies:
+3. ## Install dependencies:
 This project uses Node.js and npm. Run the following command to install required dependencies:
 bash
 Copy code
 npm install
+
+## Running the Project
+### Once the dependencies are installed, you can start the server using the following command:
+bash
+Copy code
+node index.js
 
