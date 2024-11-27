@@ -14,12 +14,12 @@ Follow the steps below to clone and run the project locally:
    ```bash
    git clone https://github.com/MayuriP-05/random-jokes-api.git
 
-2. ## Navigate into the project directory:
+2. ### Navigate into the project directory:
 #### bash
 ####  Copy code
 #### cd random-jokes-api
 
-3. ## Install dependencies:
+3. ### Install dependencies:
 This project uses Node.js and npm. Run the following command to install required dependencies:
 bash
 Copy code
@@ -31,3 +31,34 @@ bash
 Copy code
 node index.js
 
+
+## API Endpoints
+GET /api/jokes/random
+This endpoint fetches a random joke from the JokeAPI and returns it in JSON format.
+
+Response (Single-Part Joke)
+json
+Copy code
+{
+    "joke": "Why don't skeletons fight each other? They don't have the guts."
+}
+Response (Two-Part Joke)
+json
+Copy code
+{
+    "setup": "Why don't skeletons fight each other?",
+    "delivery": "They don't have the guts."
+}
+## Testing the API
+You can test the API using Postman or any other tool for making HTTP requests.
+
+Open Postman (or your preferred API testing tool).
+Make a GET request to http://localhost:3000/api/jokes/random.
+You should receive a JSON response with a random joke.
+
+##Challenges
+While working on this project, I encountered the following challenges:
+Handling different joke formats: JokeAPI returns jokes in different formats (single-part or two-part). I had to ensure that the API correctly handled both types.
+API integration: Integrating a third-party API (JokeAPI) to fetch random jokes required handling asynchronous requests using Axios.
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
