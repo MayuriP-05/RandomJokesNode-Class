@@ -36,13 +36,13 @@ node index.js
 GET /api/jokes/random
 This endpoint fetches a random joke from the JokeAPI and returns it in JSON format.
 
-Response (Single-Part Joke)
+### Response (Single-Part Joke)
 json
 Copy code
 {
     "joke": "Why don't skeletons fight each other? They don't have the guts."
 }
-Response (Two-Part Joke)
+### Response (Two-Part Joke)
 json
 Copy code
 {
