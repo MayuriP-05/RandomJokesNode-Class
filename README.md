@@ -19,7 +19,8 @@ Follow the steps below to clone and run the project locally:
 ####  Copy code
 #### cd random-jokes-api
 
-### Install dependencies: This project uses Node.js and npm. Run the following command to install required dependencies:
+### Install dependencies:
+This project uses Node.js and npm. Run the following command to install required dependencies:
 bash
 Copy code
 npm install
